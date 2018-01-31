@@ -5,7 +5,7 @@ function requestId({ headerKey, idGenerator = uuid } = {}) {
     throw new Error('missing header key')
   }
   headerKey = headerKey.toLowerCase()
-  return async function(ctx, next) {
+  return function(ctx, next) {
     let requestId = ctx.request.headers[headerKey]
     if (requestId == undefined) {
       requestId = idGenerator()
