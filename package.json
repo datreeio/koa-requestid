@@ -4,7 +4,7 @@
   "description": "A koa middleware to generate and forward request ids between services",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ./node_modules/mocha/bin/mocha test && nyc report --reporter=text-lcov | coveralls",
+    "test": "./node_modules/mocha/bin/mocha test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
