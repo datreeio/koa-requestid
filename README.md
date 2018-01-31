@@ -1,4 +1,6 @@
-# Gateway
+# koa-requestid
+
+A koa middleware to generate and forward request ids between services
 
 ### Install
 
