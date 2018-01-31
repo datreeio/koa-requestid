@@ -1,4 +1,4 @@
-# koa-requestid
+# koa-requestid [![Build Status](https://travis-ci.com/datreeio/koa-requestid.svg?branch=master)](https://travis-ci.com/datreeio/koa-requestid)
 
 A koa middleware to generate and forward request ids between services
 
@@ -15,7 +15,7 @@ A koa middleware to generate and forward request ids between services
 ### basic usage
 
 ```javascript
-const requestId = require('@datreeio/koa-requestId')
+const requestId = require('@datreeio/koa-requestid')
 const koa = require('koa')
 const app = new koa()
 app.use(
@@ -28,7 +28,7 @@ app.use(
 ### custom id generator usage
 
 ```javascript
-const requestId = require('@datreeio/koa-requestId')
+const requestId = require('@datreeio/koa-requestid')
 const koa = require('koa')
 const app = new koa()
 
