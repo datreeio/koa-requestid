@@ -1,4 +1,4 @@
-# koa-requestid [![Build Status](https://travis-ci.com/datreeio/koa-requestid.svg?branch=master)](https://travis-ci.com/datreeio/koa-requestid)
+# koa-requestid [![Build Status](https://travis-ci.com/datreeio/koa-requestid.svg?branch=master)](https://travis-ci.com/datreeio/koa-requestid) [![Greenkeeper badge](https://badges.greenkeeper.io/datreeio/koa-requestid.svg)](https://greenkeeper.io/)
 
 A koa middleware to generate and forward request ids between services
 
